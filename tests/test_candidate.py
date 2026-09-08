@@ -53,6 +53,9 @@ class CandidateTests(unittest.TestCase):
         self.assertTrue(scanner.scan(self.fixture('http://www.w3.org/2000/svg', 'asset.svg'), False)['passed'])
         fake_host = 'https' + '://' + 'learn.chatgpt.com' + '.invalid/docs'
         self.assertFalse(scanner.scan(self.fixture(fake_host), False)['passed'])
+        for host in ['github.com', 'agentskills.io']:
+            self.assertTrue(scanner.scan(self.fixture('https://' + host + '/reference'), False)['passed'])
+            self.assertFalse(scanner.scan(self.fixture('https://' + host + '.invalid/reference'), False)['passed'])
 
     def test_only_exact_social_preview_png_is_allowed(self):
         root = self.fixture('safe')

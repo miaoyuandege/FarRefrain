@@ -1,6 +1,6 @@
 # Public modular inventory
 
-91 exact reviewed files; MIT public pre-release, NOT v0.1 FINAL. No private source or real human evidence. RELEASE means allowlisted public source, not a tag or release.
+95 exact reviewed files; MIT public pre-release, NOT v0.1 FINAL. No private source or real human evidence. RELEASE means allowlisted public source, not a tag or release.
 
 | File | Disposition | Purpose |
 | --- | --- | --- |
@@ -21,6 +21,7 @@
 | core/MindOS.md | RELEASE | Reviewed source, documentation or verification |
 | core/README.md | RELEASE | Reviewed source, documentation or verification |
 | core/layouts/default/README.md | RELEASE | Reviewed source, documentation or verification |
+| docs/ECOSYSTEM_INTEROP.md | RELEASE | Reviewed source, documentation or verification |
 | docs/EXTERNAL_FIRST_USE_FEEDBACK.md | RELEASE | Reviewed source, documentation or verification |
 | docs/GITHUB_SECURITY_PLAN.md | RELEASE | Reviewed source, documentation or verification |
 | docs/INVENTORY.md | RELEASE | Reviewed source, documentation or verification |
@@ -57,6 +58,8 @@
 | examples/external-first-use-project/项目当前阶段.md | RELEASE | Synthetic fixture; not human evidence |
 | examples/external-first-use-project/项目总览.md | RELEASE | Synthetic fixture; not human evidence |
 | examples/first-task.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/interop/README.md | RELEASE | Reviewed source, documentation or verification |
+| examples/interop/external-result.md | RELEASE | Reviewed source, documentation or verification |
 | examples/kernel-only/README.md | RELEASE | Synthetic fixture; not human evidence |
 | examples/kernel-only/current-memory/core/identity.md | RELEASE | Synthetic fixture; not human evidence |
 | examples/kernel-only/current-memory/general/limit.md | RELEASE | Synthetic fixture; not human evidence |
@@ -77,6 +80,7 @@
 | presets/observability/README.md | RELEASE | Reviewed source, documentation or verification |
 | tests/test_candidate.py | RELEASE | Reviewed source, documentation or verification |
 | tests/test_first_use.py | RELEASE | Reviewed source, documentation or verification |
+| tests/test_interop.py | RELEASE | Reviewed source, documentation or verification |
 | tests/test_modular.py | RELEASE | Reviewed source, documentation or verification |
 | tests/test_public_pretest.py | RELEASE | Reviewed source, documentation or verification |
 | tools/first_use_probe.py | RELEASE | Reviewed source, documentation or verification |

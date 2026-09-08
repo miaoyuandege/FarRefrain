@@ -48,6 +48,8 @@ Try the [synthetic lifecycle](examples/default-workflow/README.md). Replace its 
 
 ## Compatibility and evidence
 
+One unchanged Skill (explicit use; native discovery not proven), a reference MCP server and an ordinary CLI have been exercised with removable synthetic installs. See [native ecosystem evidence and limits](docs/ECOSYSTEM_INTEROP.md).
+
 Pre-v0.1 restructuring moved protocol, templates and client entries under `workflows/default`. Old entries are thin pointers, not parallel authorities. See [migration notes](docs/MIGRATION.md).
 
 [Verification](docs/VERIFY.md) · [Release readiness](docs/RELEASE_READINESS.md) · [Platform](docs/PLATFORM.md) · [Inventory](docs/INVENTORY.md) · [Provenance](docs/SOURCE_MAP.md) · [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md)

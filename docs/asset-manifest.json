@@ -26,9 +26,9 @@
     },
     {
       "path": "README.md",
-      "sha256": "cb20e6b42a6f325a06ffcc38890e19546dfe8da9b0b81a68665543b8a91322d1",
+      "sha256": "3c62112396cf75fe3756afb1709011c51da39db15408eb1581fb2ebc32d02b18",
       "origin": "NEW_PUBLIC",
-      "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied.",
+      "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied. Reviewed interop delta: bounded evidence navigation/inventory or two exact official reference hosts with spoof-host regression.",
       "disposition": "RELEASE"
     },
     {
@@ -123,6 +123,13 @@
       "disposition": "RELEASE"
     },
     {
+      "path": "docs/ECOSYSTEM_INTEROP.md",
+      "origin": "NEW_PUBLIC",
+      "transformation": "Original bounded interop narrative, synthetic generated output or offline example test; upstream links only, no third-party implementation or private data.",
+      "disposition": "RELEASE",
+      "sha256": "e8cabd32e1e88977b242f8295ae38e4562f030114438b051417585bd79d6d56b"
+    },
+    {
       "path": "docs/EXTERNAL_FIRST_USE_FEEDBACK.md",
       "origin": "NEW_PUBLIC",
       "transformation": "AI-guided public pretest entry, synthetic project or focused tests; no private source copied.",
@@ -139,8 +146,8 @@
     {
       "path": "docs/INVENTORY.md",
       "origin": "NEW_PUBLIC",
-      "transformation": "Release-readiness documentation or stdlib-only local diagnostic/synthetic tests; no private data or bundled third-party code.",
-      "sha256": "bda65749fee55333551d0cc51e7e7ed4feb747e7a938c81bf0783abcf3b7b365",
+      "transformation": "Release-readiness documentation or stdlib-only local diagnostic/synthetic tests; no private data or bundled third-party code. Reviewed interop delta: bounded evidence navigation/inventory or two exact official reference hosts with spoof-host regression.",
+      "sha256": "b8e216a60d032e9c7ff39faca831dbe1014edcd4d457423d689d892275a31a95",
       "disposition": "RELEASE"
     },
     {
@@ -208,9 +215,9 @@
     },
     {
       "path": "docs/SOURCE_MAP.md",
-      "sha256": "2881715a8644bb111d61795a3e51d89e851085f91dbc46e683e03ce2627bda5e",
+      "sha256": "33b0e729084e6bd4e5300a1ceed3950a385953e03e230a8d632979bd4eed5fa9",
       "origin": "NEW_PUBLIC",
-      "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied.",
+      "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied. Reviewed interop delta: bounded evidence navigation/inventory or two exact official reference hosts with spoof-host regression.",
       "disposition": "RELEASE"
     },
     {
@@ -368,6 +375,20 @@
       "disposition": "RELEASE"
     },
     {
+      "path": "examples/interop/README.md",
+      "origin": "NEW_PUBLIC",
+      "transformation": "Original bounded interop narrative, synthetic generated output or offline example test; upstream links only, no third-party implementation or private data.",
+      "disposition": "RELEASE",
+      "sha256": "b038f3134aa098d8e9fd76172ecb988287ff7f131e04daa69e0680d82187fa9e"
+    },
+    {
+      "path": "examples/interop/external-result.md",
+      "origin": "NEW_PUBLIC",
+      "transformation": "Original bounded interop narrative, synthetic generated output or offline example test; upstream links only, no third-party implementation or private data.",
+      "disposition": "RELEASE",
+      "sha256": "477ba5435fdea803c898c1b39eba9f7a726db72a9268aaa43c263a177ef5f424"
+    },
+    {
       "origin": "NEW_PUBLIC",
       "transformation": "Public-authored modular documentation, fixture or verification; no private data.",
       "path": "examples/kernel-only/README.md",
@@ -495,9 +516,9 @@
     },
     {
       "path": "tests/test_candidate.py",
-      "sha256": "e2960f469200451abf06e9d3c6cf00985f7683d6adec55190732eb71680aea88",
+      "sha256": "f6ffa37823ec3ac8ae1ba358493543f002460609faeb6fbdf3624154928eef9e",
       "origin": "NEW_PUBLIC",
-      "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied.",
+      "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied. Reviewed interop delta: bounded evidence navigation/inventory or two exact official reference hosts with spoof-host regression.",
       "disposition": "RELEASE"
     },
     {
@@ -506,6 +527,13 @@
       "transformation": "Release-readiness documentation or stdlib-only local diagnostic/synthetic tests; no private data or bundled third-party code.",
       "sha256": "ecbcdeeb2968c125693cb66561c8cedd63b3a3e28e5d102242c5ed1d34649438",
       "disposition": "RELEASE"
+    },
+    {
+      "path": "tests/test_interop.py",
+      "origin": "NEW_PUBLIC",
+      "transformation": "Original bounded interop narrative, synthetic generated output or offline example test; upstream links only, no third-party implementation or private data.",
+      "disposition": "RELEASE",
+      "sha256": "95b47562008ddd2616d77c705073358542c063894314b530f8869cc915401b9f"
     },
     {
       "origin": "NEW_PUBLIC",
@@ -551,9 +579,9 @@
     },
     {
       "path": "tools/prepublish_scan.py",
-      "sha256": "762ef799e46ec7f3d9c82ef4e0e53e8fb714e25d567ebe7f731289007bb8a293",
+      "sha256": "d2bf20d3ebda1f43edd55d6e1adc9e2421b0400a324ce025d1f2e75aba2445a9",
       "origin": "NEW_PUBLIC",
-      "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied.",
+      "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied. Reviewed interop delta: bounded evidence navigation/inventory or two exact official reference hosts with spoof-host regression.",
       "disposition": "RELEASE"
     },
     {

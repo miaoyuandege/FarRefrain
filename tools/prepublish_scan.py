@@ -24,7 +24,7 @@ PUBLIC_BINARY_ASSETS = {'assets/social-preview.png'}
 GENERATED = {'observations.json', 'observations.md', 'readiness.json'}
 TEXT_SUFFIXES = {'.md', '.py', '.json', '.txt', '.yaml', '.yml', '.toml', '.svg'}
 MANIFEST = 'docs/asset-manifest.json'
-PUBLIC_REFERENCE_HOSTS = {'learn.chatgpt.com', 'developers.openai.com', 'docs.github.com', 'choosealicense.com', 'www.apache.org', 'www.w3.org'}
+PUBLIC_REFERENCE_HOSTS = {'learn.chatgpt.com', 'developers.openai.com', 'docs.github.com', 'choosealicense.com', 'www.apache.org', 'www.w3.org', 'github.com', 'agentskills.io'}
 
 
 def scan(root, require_manifest=True):

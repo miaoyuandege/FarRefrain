@@ -13,6 +13,7 @@ This public tree is an explicit allowlist, not an export of a private workspace.
 | extensions/router/tests/ | Accepted transport regressions genericized; production config lookup removed; portability/config tests added | Canonical/alias/collision/stability/event and six synthetic route checks |
 | extensions/router/config.example.json and README.md | New generic example and platform/failure/privacy contract | Config resolution test; exact private-path scan |
 | examples/kernel-only and default-workflow | New synthetic fixtures, no real project or human evidence | Disk recovery, manual lifecycle, add/remove Router independence |
+| docs/ECOSYSTEM_INTEROP.md and examples/interop | Public-authored bounded experiment summary and generated synthetic communication; upstream references only, no vendored capability bodies | Explicit Skill consumption distinguished from discovery; native MCP/CLI observations; recoverable uninstall and original-memory hashes |
 | tools/history-distiller | Existing project-controlled parser and synthetic fixtures; private-history verifier not distributed | Ten offline stdlib tests |
 | assets/ | Existing original vector artwork and deterministic social-preview render | Preserved dimensions/hashes; workflow graphic scoped to optional Workflow |
 | Other docs/tests/tools/compatibility entries | Public-authored material, maintained for modular paths and boundaries | Links, privacy, installation smoke and exact inventory |
