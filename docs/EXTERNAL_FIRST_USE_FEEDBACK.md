@@ -1,12 +1,12 @@
 # 外部首次使用反馈（短表）
 
-先把仓库 URL 给自己的 AI，只说：“帮我安装 MindOS，并告诉我安装完成后怎么开始使用。” 不预先学习 Skill 路径。请保留第一次遇到的困难，即使后来自己解决，也不要把它从反馈里删掉。
+先把仓库 URL 给自己的 AI，只说：“帮我安装 FarRefrain，并告诉我安装完成后怎么开始使用。” 不预先学习 Skill 路径。请保留第一次遇到的困难，即使后来自己解决，也不要把它从反馈里删掉。
 
 - AI 能否找到并阅读 START_HERE？YES / NO
 - 能否下载仓库？YES / NO
 - Skill 安装与实际发现是否成功？YES / NO
 - “接管这个项目”后是否自行恢复 Context？YES / NO
-- 是否必须手动解释 MindOS 术语？YES / NO
+- 是否必须手动解释 FarRefrain 术语？YES / NO
 - 是否执行小 Task、Verification 并生成 Report？YES / NO
 - 原任务单是否归档且未改写？YES / NO
 - 最卡的一步 / 首个错误是什么？

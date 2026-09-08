@@ -2,7 +2,7 @@
 
 > **Illustrative walkthrough, not a measured case study.** The details below show the intended collaboration model; they are not a claim about speed, reliability, or a real user's results.
 
-Imagine a developer building a product over several months. The repository already has code, tests, and agent instructions. MindOS adds a small project-state layer so new conversations can recover what matters without treating old chat as the source of truth.
+Imagine a developer building a product over several months. The repository already has code, tests, and agent instructions. FarRefrain adds a small project-state layer so new conversations can recover what matters without treating old chat as the source of truth.
 
 ## Day 1 — Establish the current project context
 

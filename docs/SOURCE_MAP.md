@@ -15,7 +15,7 @@ This public tree is an explicit allowlist, not an export of a private workspace.
 | examples/kernel-only and default-workflow | New synthetic fixtures, no real project or human evidence | Disk recovery, manual lifecycle, add/remove Router independence |
 | docs/ECOSYSTEM_INTEROP.md and examples/interop | Public-authored bounded experiment summary and generated synthetic communication; upstream references only, no vendored capability bodies | Explicit Skill consumption distinguished from discovery; native MCP/CLI observations; recoverable uninstall and original-memory hashes |
 | tools/history-distiller | Existing project-controlled parser and synthetic fixtures; private-history verifier not distributed | Ten offline stdlib tests |
-| assets/ | Existing original vector artwork and deterministic social-preview render | Preserved dimensions/hashes; workflow graphic scoped to optional Workflow |
+| assets/ | Existing original vector artwork rebranded with new filenames, exact product copy and deterministic social-preview export | Fixed dimensions and retained palette/layout; updated hashes recorded; workflow graphic remains optional |
 | Other docs/tests/tools/compatibility entries | Public-authored material, maintained for modular paths and boundaries | Links, privacy, installation smoke and exact inventory |
 
 Runtime, file bridge, bots, observers and background integration remain internal-only or deferred; see [catalog](../extensions/README.md). No database, real session, production route target, credential, user profile, private log or live report is distributed. Existing compatibility entries are pointers only, never a second authority.

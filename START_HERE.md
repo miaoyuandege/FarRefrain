@@ -4,7 +4,7 @@ MIT LICENSED public pre-release, not v0.1 final. Tell your AI: “Help me use th
 
 ## A. Inspect
 
-Read [Core](core/README.md), [Workflow](workflows/default/README.md) and the existing project's overview/stage. Confirm target, permissions and layout. Preserve unrelated files. Check for same-name `default` or old `mindos` Skills before copying. Do not assume client/login/account or Runtime.
+Install FarRefrain as a project continuity layer. Read [Core](core/README.md), [Workflow](workflows/default/README.md) and the existing project's overview/stage. Confirm target, permissions and layout. Preserve unrelated files. Check for same-name `default` or old `mindos` Skills before copying. Do not assume client/login/account or Runtime.
 
 ## B. Install — three choices
 

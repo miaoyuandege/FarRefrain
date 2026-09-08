@@ -1,6 +1,6 @@
 # Public modular inventory
 
-95 exact reviewed files; MIT public pre-release, NOT v0.1 FINAL. No private source or real human evidence. RELEASE means allowlisted public source, not a tag or release.
+97 exact reviewed files; MIT public pre-release, NOT v0.1 FINAL. No private source or real human evidence. RELEASE means allowlisted public source, not a tag or release.
 
 | File | Disposition | Purpose |
 | --- | --- | --- |
@@ -10,11 +10,11 @@
 | README.md | RELEASE | Reviewed source, documentation or verification |
 | SECURITY.md | RELEASE | Reviewed source, documentation or verification |
 | START_HERE.md | RELEASE | Reviewed source, documentation or verification |
-| assets/mindos-hero.svg | RELEASE | Reviewed source, documentation or verification |
-| assets/mindos-mark.svg | RELEASE | Reviewed source, documentation or verification |
-| assets/mindos-workflow.svg | RELEASE | Reviewed source, documentation or verification |
-| assets/social-preview.png | RELEASE | Reviewed source, documentation or verification |
-| assets/social-preview.svg | RELEASE | Reviewed source, documentation or verification |
+| assets/farrefrain-hero.svg | RELEASE | Reviewed source, documentation or verification |
+| assets/farrefrain-mark.svg | RELEASE | Reviewed source, documentation or verification |
+| assets/farrefrain-social-preview.png | RELEASE | Reviewed source, documentation or verification |
+| assets/farrefrain-social-preview.svg | RELEASE | Reviewed source, documentation or verification |
+| assets/farrefrain-workflow.svg | RELEASE | Reviewed source, documentation or verification |
 | chatgpt/custom-instructions/generic.md | RELEASE | Reviewed source, documentation or verification |
 | codex/skill/SKILL.md | RELEASE | Reviewed source, documentation or verification |
 | core/MEMORY_CONTRACT.md | RELEASE | Reviewed source, documentation or verification |
@@ -37,7 +37,8 @@
 | docs/SOURCE_MAP.md | RELEASE | Reviewed source, documentation or verification |
 | docs/VERIFY.md | RELEASE | Reviewed source, documentation or verification |
 | docs/WALKTHROUGH.md | RELEASE | Reviewed source, documentation or verification |
-| docs/WHY_MINDOS.md | RELEASE | Reviewed source, documentation or verification |
+| docs/WHY_FARREFRAIN.md | RELEASE | Reviewed source, documentation or verification |
+| docs/WHY_MINDOS.md | RELEASE | Compatibility pointer only |
 | docs/WORKSPACE_ARCHITECTURE.md | RELEASE | Reviewed source, documentation or verification |
 | docs/asset-manifest.json | RELEASE | Reviewed source, documentation or verification |
 | examples/default-workflow/README.md | RELEASE | Synthetic fixture; not human evidence |
@@ -83,6 +84,7 @@
 | tests/test_interop.py | RELEASE | Reviewed source, documentation or verification |
 | tests/test_modular.py | RELEASE | Reviewed source, documentation or verification |
 | tests/test_public_pretest.py | RELEASE | Reviewed source, documentation or verification |
+| tests/test_rebrand.py | RELEASE | Current brand and retained identity verification |
 | tools/first_use_probe.py | RELEASE | Reviewed source, documentation or verification |
 | tools/history-distiller/README.md | RELEASE | Reviewed source, documentation or verification |
 | tools/history-distiller/distill.py | RELEASE | Reviewed source, documentation or verification |

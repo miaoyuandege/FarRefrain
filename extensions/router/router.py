@@ -469,7 +469,7 @@ class InboxRouter:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Deterministic MindOS inbox file router")
+    parser = argparse.ArgumentParser(description="Deterministic FarRefrain inbox file router")
     parser.add_argument(
         "--config",
         type=Path,

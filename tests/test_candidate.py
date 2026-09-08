@@ -61,9 +61,9 @@ class CandidateTests(unittest.TestCase):
         root = self.fixture('safe')
         (root/'assets').mkdir()
         header = b'\x89PNG\r\n\x1a\n' + b'\x00\x00\x00\x0dIHDR' + struct.pack('>II', 1280, 640)
-        (root/'assets/social-preview.png').write_bytes(header)
+        (root/'assets/farrefrain-social-preview.png').write_bytes(header)
         self.assertTrue(scanner.scan(root, False)['passed'])
-        (root/'assets/social-preview.png').write_bytes(header[:16] + struct.pack('>II', 640, 320))
+        (root/'assets/farrefrain-social-preview.png').write_bytes(header[:16] + struct.pack('>II', 640, 320))
         self.assertFalse(scanner.scan(root, False)['passed'])
         (root/'unreviewed.png').write_bytes(header)
         self.assertFalse(scanner.scan(root, False)['passed'])
@@ -120,7 +120,7 @@ class CandidateTests(unittest.TestCase):
 
     def test_product_understanding_layer(self):
         pages = {
-            'Why MindOS': ROOT/'docs/WHY_MINDOS.md',
+            'Why FarRefrain': ROOT/'docs/WHY_FARREFRAIN.md',
             'Workspace architecture': ROOT/'docs/WORKSPACE_ARCHITECTURE.md',
             'Walkthrough': ROOT/'docs/WALKTHROUGH.md',
             'Principles': ROOT/'docs/PRINCIPLES.md',
@@ -130,8 +130,8 @@ class CandidateTests(unittest.TestCase):
         for label, path in pages.items():
             self.assertTrue(path.is_file())
             self.assertIn(f'[{label}](docs/{path.name})', readme)
-        why = pages['Why MindOS'].read_text(encoding='utf-8')
-        for key in ['AGENTS.md', 'Account or custom instructions', 'Model or chat memory', 'MindOS', 'may be unnecessary']:
+        why = pages['Why FarRefrain'].read_text(encoding='utf-8')
+        for key in ['AGENTS.md', 'Account or custom instructions', 'Model or chat memory', 'FarRefrain', 'may be unnecessary']:
             self.assertIn(key, why)
         architecture = pages['Workspace architecture'].read_text(encoding='utf-8')
         for key in ['Level 1 — One project / Minimal', 'Level 2 — Multiple long-running projects / Shared workspace', 'Level 3 — Optional integrations / Infrastructure', 'Reference layout ≠ mandatory filesystem layout']:
@@ -146,10 +146,10 @@ class CandidateTests(unittest.TestCase):
 
     def test_visual_front_door_assets_are_local_and_fixed_size(self):
         expected = {
-            'mindos-mark.svg': (128, 128),
-            'mindos-hero.svg': (1280, 500),
-            'mindos-workflow.svg': (1280, 360),
-            'social-preview.svg': (1280, 640),
+            'farrefrain-mark.svg': (128, 128),
+            'farrefrain-hero.svg': (1280, 500),
+            'farrefrain-workflow.svg': (1280, 360),
+            'farrefrain-social-preview.svg': (1280, 640),
         }
         for name, dimensions in expected.items():
             path = ROOT/'assets'/name
@@ -158,7 +158,7 @@ class CandidateTests(unittest.TestCase):
             raw = path.read_text(encoding='utf-8')
             self.assertNotRegex(raw, r'(?i)(?:href|src)\s*=')
             self.assertNotIn('@font-face', raw)
-        png = (ROOT/'assets/social-preview.png').read_bytes()
+        png = (ROOT/'assets/farrefrain-social-preview.png').read_bytes()
         self.assertEqual(png[:8], b'\x89PNG\r\n\x1a\n')
         self.assertEqual(struct.unpack('>II', png[16:24]), (1280, 640))
 

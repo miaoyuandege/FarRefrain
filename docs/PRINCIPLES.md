@@ -42,4 +42,4 @@ AI should locate context, follow the workflow, and surface meaningful gaps. Huma
 
 A new conversation should recover the current stage, accepted baseline, open decisions, and next action from concise project state. It should not require a transcript replay or a full historical review.
 
-See [Why MindOS](WHY_MINDOS.md) for the mechanism comparison, [Workspace architecture](WORKSPACE_ARCHITECTURE.md) for adoption levels, and the [walkthrough](WALKTHROUGH.md) for an end-to-end example.
+See [Why FarRefrain](WHY_FARREFRAIN.md) for the mechanism comparison, [Workspace architecture](WORKSPACE_ARCHITECTURE.md) for adoption levels, and the [walkthrough](WALKTHROUGH.md) for an end-to-end example.

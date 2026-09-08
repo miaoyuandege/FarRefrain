@@ -46,12 +46,12 @@ class PublicPretestTests(unittest.TestCase):
 
     def test_ai_entry_and_unexecuted_synthetic_project(self):
         readme = (ROOT/'README.md').read_text(encoding='utf-8')
-        self.assertLess(readme.index('assets/mindos-hero.svg'), readme.index('# MindOS'))
-        for key in ['Move context out of the chat.', 'Keep thinking in the conversation.', '[Install with AI]', 'assets/mindos-workflow.svg']:
+        self.assertLess(readme.index('assets/farrefrain-hero.svg'), readme.index('# FarRefrain'))
+        for key in ['Move context out of the chat.', 'Keep thinking in the conversation.', '[Install with AI]', 'assets/farrefrain-workflow.svg']:
             self.assertIn(key, readme)
         self.assertLess(readme.index('New chats lose context'), readme.index('## Install with AI'))
         self.assertLess(readme.index('## Install with AI'), readme.index('## A 30-second example'))
-        for key in ['Before:', 'With MindOS:', 'not a measured speed or success guarantee']:
+        for key in ['Before:', 'With FarRefrain:', 'not a measured speed or success guarantee']:
             self.assertIn(key, readme)
         launch = (ROOT/'docs/LAUNCH_COPY.md').read_text(encoding='utf-8')
         for key in ['## One-liner', '## Short post', '## Story version', 'External Human First-use = NOT RUN', 'Prepared only']:

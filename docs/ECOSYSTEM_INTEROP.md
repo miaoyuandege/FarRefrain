@@ -1,10 +1,10 @@
 # Native ecosystem interoperability
 
-In a bounded Windows synthetic experiment on 2026-09-08, one unchanged Agent Skill, one MCP filesystem server and one ordinary CLI participated without changing project memory or adding a MindOS package format. This is evidence for these selections, not universal compatibility. Native Skill client discovery remains NOT PROVEN. Human acceptance and external first-use are not established by this experiment.
+In a bounded Windows synthetic experiment on 2026-09-08, one unchanged Agent Skill, one MCP filesystem server and one ordinary CLI participated without changing project memory or adding a FarRefrain package format. This is evidence for these selections, not universal compatibility. Native Skill client discovery remains NOT PROVEN. Human acceptance and external first-use are not established by this experiment.
 
 ## Observed matrix
 
-| Native type / upstream | Exact selection | Observed result | MindOS adapter |
+| Native type / upstream | Exact selection | Observed result | FarRefrain adapter |
 | --- | --- | --- | --- |
 | Agent Skill: [Anthropic internal-comms](https://github.com/anthropics/skills/tree/41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f/skills/internal-comms) | Commit `41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f` | Six files installed unchanged; explicit agent-read 3P use PASS; native client discovery NOT PROVEN | None |
 | MCP: [reference Filesystem server](https://github.com/modelcontextprotocol/servers/tree/a40bc270fb5ece62673f8a1196f57116d885c5eb/src/filesystem) | npm `@modelcontextprotocol/server-filesystem@2026.8.31`; source commit `a40bc270fb5ece62673f8a1196f57116d885c5eb` | Real stdio handshake, 14 tools listed, bounded list/read/write, two denied reads, clean process exit | None; disposable JSON-RPC client is test instrumentation |
@@ -40,15 +40,15 @@ Use the [synthetic adoption example](../examples/interop/README.md) to inspect t
 
 ## License and provenance friction
 
-The Skill includes Apache-2.0 terms. The MCP npm archive's integrity matched registry metadata, but its declared LICENSE file was missing; its README still said MIT. The exact metadata `gitHead` [repository LICENSE](https://github.com/modelcontextprotocol/servers/blob/a40bc270fb5ece62673f8a1196f57116d885c5eb/LICENSE) describes an Apache-2.0 transition with non-relicensed MIT contributions retained and documentation under CC-BY-4.0. The experiment records this mismatch, not a blanket MIT conclusion. lychee supplies [MIT terms](https://github.com/lycheeverse/lychee/blob/lychee-v0.24.2/LICENSE-MIT). No third-party Skill body, implementation, binary or dependency is redistributed here; MindOS's own license is unchanged.
+The Skill includes Apache-2.0 terms. The MCP npm archive's integrity matched registry metadata, but its declared LICENSE file was missing; its README still said MIT. The exact metadata `gitHead` [repository LICENSE](https://github.com/modelcontextprotocol/servers/blob/a40bc270fb5ece62673f8a1196f57116d885c5eb/LICENSE) describes an Apache-2.0 transition with non-relicensed MIT contributions retained and documentation under CC-BY-4.0. The experiment records this mismatch, not a blanket MIT conclusion. lychee supplies [MIT terms](https://github.com/lycheeverse/lychee/blob/lychee-v0.24.2/LICENSE-MIT). No third-party Skill body, implementation, binary or dependency is redistributed here; FarRefrain's own license is unchanged.
 
-Native metadata plus a bounded experiment record supplied the needed identity, version, permissions and result provenance. No missing cross-format fact justified a new descriptor. The existing no-universal-manifest decision remains: no MindOS package registry, metadata mirror, mandatory wrapper or second package manager.
+Native metadata plus a bounded experiment record supplied the needed identity, version, permissions and result provenance. No missing cross-format fact justified a new descriptor. The existing no-universal-manifest decision remains: no FarRefrain package registry, metadata mirror, mandatory wrapper or second package manager.
 
 ## OpenAI Plugin mapping — documentation only
 
 Current [OpenAI plugin guidance](https://learn.chatgpt.com/docs/build-plugins) describes bundles of Skills, MCP servers or both. This supports the following conceptual mapping; it is not an installed-plugin test:
 
-| MindOS concern | Packaging relationship |
+| FarRefrain concern | Packaging relationship |
 | --- | --- |
 | Default Workflow | Skill / workflow guidance; review and adoption policy |
 | MCP, Apps, connectors | Optional external capability connection; separate permission surface |

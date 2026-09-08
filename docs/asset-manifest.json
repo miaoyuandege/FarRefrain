@@ -26,7 +26,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "3c62112396cf75fe3756afb1709011c51da39db15408eb1581fb2ebc32d02b18",
+      "sha256": "0debaa524e1ef12979fd7fda6771ecf09547e7f278c31c8fb86d259e9c75dc71",
       "origin": "NEW_PUBLIC",
       "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied. Reviewed interop delta: bounded evidence navigation/inventory or two exact official reference hosts with spoof-host regression.",
       "disposition": "RELEASE"
@@ -43,41 +43,41 @@
       "origin": "NEW_PUBLIC",
       "transformation": "AI-guided public pretest entry, synthetic project or focused tests; no private source copied.",
       "disposition": "RELEASE",
-      "sha256": "fd1239cb86bb96fd4ec69a38cb65b0f9c779fd1823257c2aa224aba3efe26d37"
+      "sha256": "d06bc6c38148ac97f3da49817ab413777967a21dcab0ac83661215e36e2c9434"
     },
     {
-      "path": "assets/mindos-hero.svg",
-      "sha256": "319c554b1b86f932358928bb98c315368b052dbdd049d053c25dcee77b092bd0",
+      "path": "assets/farrefrain-hero.svg",
+      "sha256": "5be4b0ca3faf4dc6d8a1259699a358aef95b4e9beac44399b8ab44cfac78f1d7",
       "origin": "NEW_PUBLIC",
-      "transformation": "Original README hero; fixed light surface, local vector shapes and system-font fallbacks.",
+      "transformation": "Original README hero; fixed light surface, local vector shapes and system-font fallbacks. Public brand rename; previous bytes remain in Git history; no behavior/schema migration.",
       "disposition": "RELEASE"
     },
     {
-      "path": "assets/mindos-mark.svg",
-      "sha256": "dbb3080e7f6acb29fa427471b67884aaef6e364a18fb821c8e063f6c10257dca",
+      "path": "assets/farrefrain-mark.svg",
+      "sha256": "adde47d9b2187c8fbd33e98f48dc233ab078d81a9cd39dbdae565d60c08cc82f",
       "origin": "NEW_PUBLIC",
-      "transformation": "Original compact MindOS mark; local vector shapes and system-font fallback only.",
+      "transformation": "Original compact MindOS mark; local vector shapes and system-font fallback only. Public brand rename; previous bytes remain in Git history; no behavior/schema migration.",
       "disposition": "RELEASE"
     },
     {
-      "path": "assets/mindos-workflow.svg",
-      "sha256": "4b71f1110cd67c4c4b30b7c30f980842d85bb575ef43b2b567b26dc389e4b09c",
-      "origin": "NEW_PUBLIC",
-      "transformation": "Original four-step collaboration-loop visual; local vector shapes and system-font fallbacks.",
-      "disposition": "RELEASE"
-    },
-    {
-      "path": "assets/social-preview.png",
-      "sha256": "608f74123bb7b5fbd33d4c7fadabfde8f8feb5194edddf03912ac8573ab77207",
+      "path": "assets/farrefrain-social-preview.png",
+      "sha256": "b4f67e4f4942179972ea7b023579117f2194fcfda1d106e8535c06b695bbe738",
       "origin": "DERIVED_PUBLIC",
-      "transformation": "Deterministic 1280 x 640 render of assets/social-preview.svg; no external source material.",
+      "transformation": "Deterministic 1280 x 640 render of assets/farrefrain-social-preview.svg using the existing local renderer; prior asset bytes remain in Git history; no external source material.",
       "disposition": "RELEASE"
     },
     {
-      "path": "assets/social-preview.svg",
-      "sha256": "8dfff7c880d655fbd3e60f0f51d8bdbcf32e8df55ac78ee481f0d6c3b754033b",
+      "path": "assets/farrefrain-social-preview.svg",
+      "sha256": "99ccb67fc38600579aa99b3ca731d2e0df26e5bdd9ea5d698c273c0748a1c11c",
       "origin": "NEW_PUBLIC",
-      "transformation": "Original editable social-preview source; local vector shapes and system-font fallback only.",
+      "transformation": "Original editable social-preview source; local vector shapes and system-font fallback only. Public brand rename; previous bytes remain in Git history; no behavior/schema migration.",
+      "disposition": "RELEASE"
+    },
+    {
+      "path": "assets/farrefrain-workflow.svg",
+      "sha256": "dd35a27b4bfe0df90a1d5ee196acbeddd12c62f3e5b6c9745dfc89c4a7c24bb5",
+      "origin": "NEW_PUBLIC",
+      "transformation": "Original four-step collaboration-loop visual; local vector shapes and system-font fallbacks. Public brand rename; previous bytes remain in Git history; no behavior/schema migration.",
       "disposition": "RELEASE"
     },
     {
@@ -127,14 +127,14 @@
       "origin": "NEW_PUBLIC",
       "transformation": "Original bounded interop narrative, synthetic generated output or offline example test; upstream links only, no third-party implementation or private data.",
       "disposition": "RELEASE",
-      "sha256": "e8cabd32e1e88977b242f8295ae38e4562f030114438b051417585bd79d6d56b"
+      "sha256": "5eeb17f42c399e7645d2d914871bb5ac4049a3c8f76ea91772c690d7d9ca2e73"
     },
     {
       "path": "docs/EXTERNAL_FIRST_USE_FEEDBACK.md",
       "origin": "NEW_PUBLIC",
       "transformation": "AI-guided public pretest entry, synthetic project or focused tests; no private source copied.",
       "disposition": "RELEASE",
-      "sha256": "8ad43f12179271921c9df403f995a28af48467e2b9600520f82b445a802dfcbf"
+      "sha256": "7979549acd67ee4492ea711dc0bb8869f820bc625393112225d011e7d6ea1843"
     },
     {
       "path": "docs/GITHUB_SECURITY_PLAN.md",
@@ -147,12 +147,12 @@
       "path": "docs/INVENTORY.md",
       "origin": "NEW_PUBLIC",
       "transformation": "Release-readiness documentation or stdlib-only local diagnostic/synthetic tests; no private data or bundled third-party code. Reviewed interop delta: bounded evidence navigation/inventory or two exact official reference hosts with spoof-host regression.",
-      "sha256": "b8e216a60d032e9c7ff39faca831dbe1014edcd4d457423d689d892275a31a95",
+      "sha256": "0dea6f422b0e36015fa4c61f077fa6b790b9d323ebb57651506ded1daa9f8a1f",
       "disposition": "RELEASE"
     },
     {
       "path": "docs/LAUNCH_COPY.md",
-      "sha256": "3e4972d3373cc3ee8b44bc25df83091b766fa943ee8e5d466ad63fc800d3c313",
+      "sha256": "8b76858fcbd8a04a42d0790167e1e3e96184e722e9d3005aa32c07fb9db12f93",
       "origin": "NEW_PUBLIC",
       "transformation": "Three draft lengths from public product positioning; no private data; prepared only, not posted",
       "disposition": "RELEASE"
@@ -168,7 +168,7 @@
       "origin": "NEW_PUBLIC",
       "transformation": "Public-authored modular documentation, fixture or verification; no private data.",
       "path": "docs/MIGRATION.md",
-      "sha256": "307ee7c3cb9d439499afcf0c8b2b56b59dfbb22763242ef108b443c77513f933",
+      "sha256": "ec1cf6148058fc23f4477a1419ccf3b4ddbc1f2201850b2a07779a2cc2af2546",
       "disposition": "RELEASE"
     },
     {
@@ -187,7 +187,7 @@
     },
     {
       "path": "docs/PRINCIPLES.md",
-      "sha256": "33357167bf7651b89bac73d4f0f7a28c7e6df4e42f328624dc7a7b802c433851",
+      "sha256": "ed715dad6460747fcf3e3480e23856f9997599d8b5d3eff2196e01cf7b7e8e6d",
       "origin": "NEW_PUBLIC",
       "transformation": "Generic product-understanding principles distilled from the public product contract; not a second protocol Authority.",
       "disposition": "RELEASE"
@@ -215,7 +215,7 @@
     },
     {
       "path": "docs/SOURCE_MAP.md",
-      "sha256": "33b0e729084e6bd4e5300a1ceed3950a385953e03e230a8d632979bd4eed5fa9",
+      "sha256": "156aa696a7b42968b362071e415dd71f1f2d657166331cb1461c486e3ab2ce9e",
       "origin": "NEW_PUBLIC",
       "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied. Reviewed interop delta: bounded evidence navigation/inventory or two exact official reference hosts with spoof-host regression.",
       "disposition": "RELEASE"
@@ -229,17 +229,24 @@
     },
     {
       "path": "docs/WALKTHROUGH.md",
-      "sha256": "55ab4eb74970345a07f9ecdefc2af535c9820e4b9e34ea5e1e788b74fbc79d74",
+      "sha256": "3b3a7613e17bc52983dab50b3ed5b901ec4857496a34fa09b50326114c22901d",
       "origin": "NEW_PUBLIC",
       "transformation": "Illustrative generic long-running-project story; no real user, project, task, report or measured evidence.",
       "disposition": "RELEASE"
     },
     {
-      "path": "docs/WHY_MINDOS.md",
-      "sha256": "336aeea165a7282b2488fb13e35ca7669408e56675e73c962cef61392551c85e",
+      "path": "docs/WHY_FARREFRAIN.md",
+      "sha256": "adf96ac7fa9d451bafa49ab4e9facd272bd12468be6611014d6244babd2c6ce6",
       "origin": "NEW_PUBLIC",
-      "transformation": "Fair product-layer comparison using only public concepts; complementary to instructions and memory.",
+      "transformation": "Fair product-layer comparison using only public concepts; complementary to instructions and memory. Public brand rename; previous bytes remain in Git history; no behavior/schema migration.",
       "disposition": "RELEASE"
+    },
+    {
+      "path": "docs/WHY_MINDOS.md",
+      "origin": "NEW_PUBLIC",
+      "transformation": "Thin old-name compatibility pointer or bounded rebrand regression; no private content.",
+      "disposition": "RELEASE",
+      "sha256": "7bb7a5a3009b17541230628a845911cf4594a3b03d85399b6b9d9ca869291b1c"
     },
     {
       "path": "docs/WORKSPACE_ARCHITECTURE.md",
@@ -462,7 +469,7 @@
       "origin": "PROJECT_CONTROLLED_TRANSPORT",
       "transformation": "Genericized accepted internal transport/tests; no config/log/source data copied; relative-path and no-overwrite portability adapters; stdlib only.",
       "path": "extensions/router/router.py",
-      "sha256": "b197ba1128683618249e12289687bfa729dc6970b582db18915430528cfac91f",
+      "sha256": "b29f7c1ee17d0a632f184e5902463a798f38916942492a7a8e1afcc8cc583d4b",
       "disposition": "RELEASE"
     },
     {
@@ -516,7 +523,7 @@
     },
     {
       "path": "tests/test_candidate.py",
-      "sha256": "f6ffa37823ec3ac8ae1ba358493543f002460609faeb6fbdf3624154928eef9e",
+      "sha256": "5b7cb44ee9698d9ee937df96e77007ae33c1c76f202564205f35494527de315a",
       "origin": "NEW_PUBLIC",
       "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied. Reviewed interop delta: bounded evidence navigation/inventory or two exact official reference hosts with spoof-host regression.",
       "disposition": "RELEASE"
@@ -547,7 +554,14 @@
       "origin": "NEW_PUBLIC",
       "transformation": "AI-guided public pretest entry, synthetic project or focused tests; no private source copied.",
       "disposition": "RELEASE",
-      "sha256": "f93cc90ca0e6133c0715544d6173e0e2b3d2124e0db1840497a0497b159c6777"
+      "sha256": "3b6989f349bd12263b5d09c23012e534afce701278326ca815c791d72b81b921"
+    },
+    {
+      "path": "tests/test_rebrand.py",
+      "origin": "NEW_PUBLIC",
+      "transformation": "Thin old-name compatibility pointer or bounded rebrand regression; no private content.",
+      "disposition": "RELEASE",
+      "sha256": "3601da9aecd0fff5ba33e465ac508f5737ad69fe6339aff71e325d8b92b881a2"
     },
     {
       "path": "tools/first_use_probe.py",
@@ -579,7 +593,7 @@
     },
     {
       "path": "tools/prepublish_scan.py",
-      "sha256": "d2bf20d3ebda1f43edd55d6e1adc9e2421b0400a324ce025d1f2e75aba2445a9",
+      "sha256": "4596ec4b54bba43555242c01543481388003abcadaca24b2cf57d9f377ffb9e3",
       "origin": "NEW_PUBLIC",
       "transformation": "New candidate-only documentation, preflight or synthetic test; no private source data copied. Reviewed interop delta: bounded evidence navigation/inventory or two exact official reference hosts with spoof-host regression.",
       "disposition": "RELEASE"
@@ -595,7 +609,7 @@
       "origin": "NEW_PUBLIC",
       "transformation": "Public-authored modular documentation, fixture or verification; no private data.",
       "path": "workflows/default/SKILL.md",
-      "sha256": "729d32c2e45246144180993229c6ed08fd31bb764b2ff56d308d20e9a89bdacd",
+      "sha256": "027e1a20c9ccdcb1e462e31b70c20dfae986690cbf4b6536ead2e40e443ac0be",
       "disposition": "RELEASE"
     },
     {

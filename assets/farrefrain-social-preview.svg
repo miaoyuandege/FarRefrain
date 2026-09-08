@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
-  <title id="title">MindOS social preview</title>
-  <desc id="desc">MindOS, a local work system for long-running AI projects.</desc>
+  <title id="title">FarRefrain social preview</title>
+  <desc id="desc">FarRefrain, a project continuity substrate for AI-native work.</desc>
   <rect width="1280" height="640" fill="#F6F7F2"/>
   <rect x="1" y="1" width="1278" height="638" rx="30" fill="none" stroke="#D8DDE5" stroke-width="2"/>
-  <rect x="72" y="67" width="216" height="38" rx="19" fill="#E3E9FA"/>
-  <text x="94" y="93" font-family="Segoe UI" font-size="17" font-weight="bold" fill="#2448B8">LOCAL WORK SYSTEM</text>
-  <text x="70" y="260" font-family="Segoe UI" font-size="112" font-weight="bold" fill="#17202A">MindOS</text>
-  <text x="75" y="336" font-family="Segoe UI" font-size="37" font-weight="bold" fill="#17202A">Move context out of the chat.</text>
-  <text x="75" y="389" font-family="Segoe UI" font-size="37" font-weight="bold" fill="#3059D9">Keep thinking in the conversation.</text>
-  <text x="76" y="472" font-family="Segoe UI" font-size="23" fill="#5F6A77">A local work system for long-running AI projects</text>
+  <rect x="72" y="67" width="270" height="38" rx="19" fill="#E3E9FA"/>
+  <text x="94" y="93" font-family="Segoe UI" font-size="17" font-weight="bold" fill="#2448B8">PROJECT CONTINUITY</text>
+  <text x="70" y="260" font-family="Segoe UI" font-size="112" font-weight="bold" fill="#17202A">FarRefrain</text>
+  <text x="75" y="336" font-family="Segoe UI" font-size="37" font-weight="bold" fill="#17202A">A project continuity substrate</text>
+  <text x="75" y="389" font-family="Segoe UI" font-size="37" font-weight="bold" fill="#3059D9">for AI-native work.</text>
+  <text x="76" y="472" font-family="Segoe UI" font-size="23" fill="#5F6A77">Local memory · Replaceable workflows · Native tools</text>
   <line x1="872" y1="155" x2="872" y2="472" stroke="#C8D0DD" stroke-width="4"/>
   <circle cx="872" cy="155" r="12" fill="#3059D9"/>
   <circle cx="872" cy="260" r="12" fill="#3059D9"/>

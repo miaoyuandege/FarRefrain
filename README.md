@@ -1,8 +1,12 @@
-![MindOS — durable context for AI collaboration](assets/mindos-hero.svg)
+![FarRefrain — durable context for AI collaboration](assets/farrefrain-hero.svg)
 
-# MindOS
+# FarRefrain
 
-Local memory for long-running AI projects. Use the default workflow, replace it, or add only the extensions you need.
+A project continuity substrate for AI-native work.
+
+Your agents can change. Your workflows can change. Your tools can change. Keep one recoverable project continuity layer: a Local Memory Core, replaceable workflows and optional native capabilities.
+
+*The singer changes. The refrain continues.*
 
 **You can start with files only.** New chats lose context; local boot entries, current knowledge and provenance make it recoverable. Move context out of the chat. Keep thinking in the conversation.
 
@@ -30,11 +34,11 @@ Give your AI this repository and [Install with AI](START_HERE.md). Recommended: 
 
 Before: “The old chat knew why this limit exists.”
 
-With MindOS: read the overview, adopted limit and decision reference, see the pending alternative separately, then continue authorized work. This is an illustration, not a measured speed or success guarantee.
+With FarRefrain: read the overview, adopted limit and decision reference, see the pending alternative separately, then continue authorized work. This is an illustration, not a measured speed or success guarantee.
 
 ## Understand the model
 
-[Why MindOS](docs/WHY_MINDOS.md) · [Workspace architecture](docs/WORKSPACE_ARCHITECTURE.md) · [Walkthrough](docs/WALKTHROUGH.md) · [Principles](docs/PRINCIPLES.md)
+[Why FarRefrain](docs/WHY_FARREFRAIN.md) · [Workspace architecture](docs/WORKSPACE_ARCHITECTURE.md) · [Walkthrough](docs/WALKTHROUGH.md) · [Principles](docs/PRINCIPLES.md)
 
 ## Start small
 
@@ -42,7 +46,7 @@ Core is the [memory contract](core/MEMORY_CONTRACT.md), not the author's full wo
 
 The retained artwork below illustrates the optional **Default Workflow**, not a Core requirement:
 
-![Default Workflow collaboration loop](assets/mindos-workflow.svg)
+![Default Workflow collaboration loop](assets/farrefrain-workflow.svg)
 
 Try the [synthetic lifecycle](examples/default-workflow/README.md). Replace its workflow while keeping identity/discoverability/provenance intact. No second workflow implementation is claimed. The [catalog](extensions/README.md) distinguishes shipped Router code from internal-only/deferred integrations. The [history distiller](tools/history-distiller/README.md) remains an optional offline utility, not an Observer service.
 

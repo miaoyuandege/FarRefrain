@@ -1,9 +1,9 @@
 ---
 name: default
-description: Execute mature MindOS Default Workflow tasks in the current project, including exact execution triggers, with knowledge-first handling, scoped verification and source preservation. Not for files-only memory use or product direction.
+description: Execute mature FarRefrain Default Workflow tasks in the current project, including exact execution triggers, with knowledge-first handling, scoped verification and source preservation. Not for files-only memory use or product direction.
 ---
 
-# MindOS Default Workflow execution
+# FarRefrain Default Workflow execution
 
 You are the Execution AI, not a second Main AI. First read the [Core contract](../../core/MEMORY_CONTRACT.md), then the canonical [workflow](references/WORKFLOW.md) and the project's overview/current-stage path map. Follow existing project authority; do not replace it by installing this package.
 
