@@ -1,3 +1,3 @@
 # Minimal — documentation workflow
 
-For an existing Codex user with a local project. Includes protocol, execution Skill and Task/Report templates. No Runtime, Router, bots, observers or background automation. Start with [Quick Start](../../docs/QUICK_START.md). This is a selection guide, not an installer.
+Legacy selection pointer: [Core only](../../core/README.md) is now the true minimum. For the former documentation workflow choose [Core + Default Workflow](../../START_HERE.md). No duplicated policy or installer is maintained here.

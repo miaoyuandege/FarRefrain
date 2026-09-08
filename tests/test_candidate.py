@@ -101,12 +101,12 @@ class CandidateTests(unittest.TestCase):
         license_text = (ROOT/'LICENSE').read_text(encoding='utf-8')
         self.assertIn('Copyright (c) 2026 miaoyuandege', license_text)
         self.assertTrue(license_text.startswith('MIT License\n'))
-        self.assertEqual(len(list((ROOT/'core/templates').glob('*.md'))),6)
+        self.assertEqual(len(list((ROOT/'workflows/default/templates').glob('*.md'))),6)
 
     def test_task_issuance_research_reuse_gate(self):
-        protocol = (ROOT/'core/MindOS.md').read_text(encoding='utf-8')
-        task = (ROOT/'core/templates/task.md').read_text(encoding='utf-8')
-        instructions = (ROOT/'chatgpt/custom-instructions/generic.md').read_text(encoding='utf-8')
+        protocol = (ROOT/'workflows/default/references/WORKFLOW.md').read_text(encoding='utf-8')
+        task = (ROOT/'workflows/default/templates/task.md').read_text(encoding='utf-8')
+        instructions = (ROOT/'workflows/default/references/main-ai.md').read_text(encoding='utf-8')
         for text in (protocol, task, instructions):
             self.assertIn('Research / Reuse Gate', text)
         self.assertIn('No mature Task is issued while the gate is unresolved', protocol)

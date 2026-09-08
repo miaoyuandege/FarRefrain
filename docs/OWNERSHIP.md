@@ -6,9 +6,10 @@ Scope: the exact paths in asset-manifest.json plus that manifest itself. This is
 
 | Assets | Inspected provenance | Distribution conclusion |
 | --- | --- | --- |
-| core/MindOS.md; codex/skill/SKILL.md; codex/profiles/guardrails.md; generic account router | Curated from project-controlled internal governance, with explicit transformations recorded in SOURCE_MAP and manifest | Candidate-authored/maintained content; no identified copied third-party prose; license and public attribution authorized by the user decision; no independent legal title warranty |
+| Core contract; workflows/default Skill, policy, guardrails and main-AI entry | Curated from project-controlled internal governance, with explicit transformations recorded in SOURCE_MAP and manifest | Candidate-authored/maintained content; no identified copied third-party prose; license and public attribution authorized by the user decision; no independent legal title warranty |
 | LICENSE | Standard MIT text from [Choose a License](https://choosealicense.com/licenses/mit/); only year and fullname placeholders filled | Copyright (c) 2026 miaoyuandege; no extra restrictions |
-| Six core/templates files | Unfilled internal generic templates, no user-completed content | No identified third-party notice obligation |
+| Six workflows/default/templates files | Unfilled internal generic templates, no user-completed content | No identified third-party notice obligation |
+| Router and synthetic tests | Project-controlled accepted internal transport implementation, genericized fixtures and new bounded portability/config adapters; standard library only | No production configuration, routes, logs or third-party implementation copied; same MIT attribution |
 | History distiller and tests | Project-controlled parser and synthetic fixtures; imports only argparse, collections, datetime, hashlib, json, pathlib, re and standard test modules | Python standard library is referenced, not bundled; no upstream source package or private verification module included |
 | Preflight, local-discovery probe and candidate tests | New local tooling; standard library only; public API requests authored from documented contracts, not copied SDK code | No bundled SDK, client executable or third-party runtime; Codex remains separately installed |
 | README/docs/security/contributing/presets/example/gitignore | New candidate prose and links; summaries of official sources, not full copied articles | No image, font, binary, model weight or external repository source imported |

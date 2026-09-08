@@ -1,66 +1,99 @@
-# Public pretest file disposition
+# Public modular inventory
 
-58 exact candidate files; PUBLIC PRE-RELEASE TEST, MIT LICENSED, NOT v0.1 FINAL, EXTERNAL FIRST-USE TESTING. RELEASE below means allowlisted for the explicitly authorized public test, not a final release; licensing is governed by [LICENSE](../LICENSE). No private source, completed real report or account data is included.
+91 exact reviewed files; MIT public pre-release, NOT v0.1 FINAL. No private source or real human evidence. RELEASE means allowlisted public source, not a tag or release.
 
 | File | Disposition | Purpose |
 | --- | --- | --- |
-| .gitignore | RELEASE | Reviewed public source, documentation or verification |
-| CONTRIBUTING.md | RELEASE | Reviewed public source, documentation or verification |
-| LICENSE | RELEASE | Standard MIT License; Copyright (c) 2026 miaoyuandege |
-| README.md | RELEASE | Reviewed public source, documentation or verification |
-| SECURITY.md | RELEASE | Reviewed public source, documentation or verification |
-| START_HERE.md | RELEASE | Reviewed public source, documentation or verification |
-| assets/mindos-hero.svg | RELEASE | Original font-free README hero; fixed light surface for light/dark hosts |
-| assets/mindos-mark.svg | RELEASE | Original compact MindOS mark |
-| assets/mindos-workflow.svg | RELEASE | Original four-step collaboration-loop visual |
-| assets/social-preview.png | RELEASE | Deterministic 1280 x 640 social-preview render |
-| assets/social-preview.svg | RELEASE | Original editable source for the social preview |
-| chatgpt/custom-instructions/generic.md | RELEASE | Reviewed public source, documentation or verification |
-| codex/profiles/guardrails.md | RELEASE | Reviewed public source, documentation or verification |
-| codex/skill/SKILL.md | RELEASE | Reviewed public source, documentation or verification |
-| core/MindOS.md | RELEASE | Reviewed public source, documentation or verification |
-| core/templates/execution-observations.md | RELEASE | Reviewed public source, documentation or verification |
-| core/templates/execution-stage-distillation.md | RELEASE | Reviewed public source, documentation or verification |
-| core/templates/main-stage-distillation.md | RELEASE | Reviewed public source, documentation or verification |
-| core/templates/profile-candidates.md | RELEASE | Reviewed public source, documentation or verification |
-| core/templates/report.md | RELEASE | Reviewed public source, documentation or verification |
-| core/templates/task.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/EXTERNAL_FIRST_USE_FEEDBACK.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/GITHUB_SECURITY_PLAN.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/INVENTORY.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/LICENSE_DECISION.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/LAUNCH_COPY.md | RELEASE | Three public-only copy drafts; no external posting |
-| docs/OWNERSHIP.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/PLATFORM.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/PRINCIPLES.md | RELEASE | Product-understanding layer; stable collaboration principles, not protocol Authority |
-| docs/PUBLIC_PRIVATE_BOUNDARY.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/QUICK_START.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/RELEASE_READINESS.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/SOURCE_MAP.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/VERIFY.md | RELEASE | Reviewed public source, documentation or verification |
-| docs/WALKTHROUGH.md | RELEASE | Product-understanding layer; illustrative long-running-project flow |
-| docs/WHY_MINDOS.md | RELEASE | Product-understanding layer; fair comparison with complementary context mechanisms |
-| docs/WORKSPACE_ARCHITECTURE.md | RELEASE | Product-understanding layer; minimal, shared and optional reference layouts |
-| docs/asset-manifest.json | RELEASE | Reviewed public source, documentation or verification |
-| examples/external-first-use-project/任务交接记录/README.md | RELEASE | Unexecuted synthetic example only |
-| examples/external-first-use-project/当前有效/README.md | RELEASE | Unexecuted synthetic example only |
-| examples/external-first-use-project/收件箱/EXT-FIRST-001_任务单.md | RELEASE | Unexecuted synthetic example only |
-| examples/external-first-use-project/欢迎说明.md | RELEASE | Unexecuted synthetic example only |
-| examples/external-first-use-project/规划与未决/README.md | RELEASE | Unexecuted synthetic example only |
-| examples/external-first-use-project/项目当前阶段.md | RELEASE | Unexecuted synthetic example only |
-| examples/external-first-use-project/项目总览.md | RELEASE | Unexecuted synthetic example only |
-| examples/first-task.md | RELEASE | Reviewed public source, documentation or verification |
-| presets/codex-workflow/README.md | RELEASE | Reviewed public source, documentation or verification |
-| presets/full/README.md | RELEASE | Design-only; implementation DEFERRED |
-| presets/minimal/README.md | RELEASE | Reviewed public source, documentation or verification |
-| presets/observability/README.md | RELEASE | Design-only; implementation DEFERRED |
-| tests/test_candidate.py | RELEASE | Reviewed public source, documentation or verification |
-| tests/test_first_use.py | RELEASE | Reviewed public source, documentation or verification |
-| tests/test_public_pretest.py | RELEASE | Reviewed public source, documentation or verification |
-| tools/first_use_probe.py | RELEASE | Reviewed public source, documentation or verification |
-| tools/history-distiller/README.md | RELEASE | Reviewed public source, documentation or verification |
-| tools/history-distiller/distill.py | RELEASE | Reviewed public source, documentation or verification |
-| tools/history-distiller/test_distill.py | RELEASE | Reviewed public source, documentation or verification |
-| tools/prepublish_scan.py | RELEASE | Reviewed public source, documentation or verification |
+| .gitignore | RELEASE | Reviewed source, documentation or verification |
+| CONTRIBUTING.md | RELEASE | Reviewed source, documentation or verification |
+| LICENSE | RELEASE | Reviewed source, documentation or verification |
+| README.md | RELEASE | Reviewed source, documentation or verification |
+| SECURITY.md | RELEASE | Reviewed source, documentation or verification |
+| START_HERE.md | RELEASE | Reviewed source, documentation or verification |
+| assets/mindos-hero.svg | RELEASE | Reviewed source, documentation or verification |
+| assets/mindos-mark.svg | RELEASE | Reviewed source, documentation or verification |
+| assets/mindos-workflow.svg | RELEASE | Reviewed source, documentation or verification |
+| assets/social-preview.png | RELEASE | Reviewed source, documentation or verification |
+| assets/social-preview.svg | RELEASE | Reviewed source, documentation or verification |
+| chatgpt/custom-instructions/generic.md | RELEASE | Reviewed source, documentation or verification |
+| codex/skill/SKILL.md | RELEASE | Reviewed source, documentation or verification |
+| core/MEMORY_CONTRACT.md | RELEASE | Reviewed source, documentation or verification |
+| core/MindOS.md | RELEASE | Reviewed source, documentation or verification |
+| core/README.md | RELEASE | Reviewed source, documentation or verification |
+| core/layouts/default/README.md | RELEASE | Reviewed source, documentation or verification |
+| docs/EXTERNAL_FIRST_USE_FEEDBACK.md | RELEASE | Reviewed source, documentation or verification |
+| docs/GITHUB_SECURITY_PLAN.md | RELEASE | Reviewed source, documentation or verification |
+| docs/INVENTORY.md | RELEASE | Reviewed source, documentation or verification |
+| docs/LAUNCH_COPY.md | RELEASE | Reviewed source, documentation or verification |
+| docs/LICENSE_DECISION.md | RELEASE | Reviewed source, documentation or verification |
+| docs/MIGRATION.md | RELEASE | Reviewed source, documentation or verification |
+| docs/OWNERSHIP.md | RELEASE | Reviewed source, documentation or verification |
+| docs/PLATFORM.md | RELEASE | Reviewed source, documentation or verification |
+| docs/PRINCIPLES.md | RELEASE | Reviewed source, documentation or verification |
+| docs/PUBLIC_PRIVATE_BOUNDARY.md | RELEASE | Reviewed source, documentation or verification |
+| docs/QUICK_START.md | RELEASE | Reviewed source, documentation or verification |
+| docs/RELEASE_READINESS.md | RELEASE | Reviewed source, documentation or verification |
+| docs/SOURCE_MAP.md | RELEASE | Reviewed source, documentation or verification |
+| docs/VERIFY.md | RELEASE | Reviewed source, documentation or verification |
+| docs/WALKTHROUGH.md | RELEASE | Reviewed source, documentation or verification |
+| docs/WHY_MINDOS.md | RELEASE | Reviewed source, documentation or verification |
+| docs/WORKSPACE_ARCHITECTURE.md | RELEASE | Reviewed source, documentation or verification |
+| docs/asset-manifest.json | RELEASE | Reviewed source, documentation or verification |
+| examples/default-workflow/README.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/default-workflow/current-memory/core/identity.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/default-workflow/current-memory/general/setup.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/default-workflow/current-memory/planning/ideas.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/default-workflow/handoffs/EXAMPLE-001_report.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/default-workflow/handoffs/EXAMPLE-001_task.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/default-workflow/history/setup-before.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/default-workflow/inbox/README.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/default-workflow/project-current-stage.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/default-workflow/project-overview.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/external-first-use-project/任务交接记录/README.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/external-first-use-project/当前有效/README.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/external-first-use-project/收件箱/EXT-FIRST-001_任务单.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/external-first-use-project/欢迎说明.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/external-first-use-project/规划与未决/README.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/external-first-use-project/项目当前阶段.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/external-first-use-project/项目总览.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/first-task.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/kernel-only/README.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/kernel-only/current-memory/core/identity.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/kernel-only/current-memory/general/limit.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/kernel-only/current-memory/planning/ideas.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/kernel-only/history/limit-8.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/kernel-only/project-current-stage.md | RELEASE | Synthetic fixture; not human evidence |
+| examples/kernel-only/project-overview.md | RELEASE | Synthetic fixture; not human evidence |
+| extensions/README.md | RELEASE | Reviewed source, documentation or verification |
+| extensions/router/README.md | RELEASE | Reviewed source, documentation or verification |
+| extensions/router/config.example.json | RELEASE | Reviewed source, documentation or verification |
+| extensions/router/router.py | RELEASE | Reviewed source, documentation or verification |
+| extensions/router/tests/test_public.py | RELEASE | Reviewed source, documentation or verification |
+| extensions/router/tests/test_router.py | RELEASE | Reviewed source, documentation or verification |
+| extensions/router/tests/test_shared_route.py | RELEASE | Reviewed source, documentation or verification |
+| presets/codex-workflow/README.md | RELEASE | Reviewed source, documentation or verification |
+| presets/full/README.md | RELEASE | Reviewed source, documentation or verification |
+| presets/minimal/README.md | RELEASE | Reviewed source, documentation or verification |
+| presets/observability/README.md | RELEASE | Reviewed source, documentation or verification |
+| tests/test_candidate.py | RELEASE | Reviewed source, documentation or verification |
+| tests/test_first_use.py | RELEASE | Reviewed source, documentation or verification |
+| tests/test_modular.py | RELEASE | Reviewed source, documentation or verification |
+| tests/test_public_pretest.py | RELEASE | Reviewed source, documentation or verification |
+| tools/first_use_probe.py | RELEASE | Reviewed source, documentation or verification |
+| tools/history-distiller/README.md | RELEASE | Reviewed source, documentation or verification |
+| tools/history-distiller/distill.py | RELEASE | Reviewed source, documentation or verification |
+| tools/history-distiller/test_distill.py | RELEASE | Reviewed source, documentation or verification |
+| tools/prepublish_scan.py | RELEASE | Reviewed source, documentation or verification |
+| workflows/default/README.md | RELEASE | Reviewed source, documentation or verification |
+| workflows/default/SKILL.md | RELEASE | Reviewed source, documentation or verification |
+| workflows/default/references/WORKFLOW.md | RELEASE | Reviewed source, documentation or verification |
+| workflows/default/references/guardrails.md | RELEASE | Reviewed source, documentation or verification |
+| workflows/default/references/main-ai.md | RELEASE | Reviewed source, documentation or verification |
+| workflows/default/templates/execution-observations.md | RELEASE | Reviewed source, documentation or verification |
+| workflows/default/templates/execution-stage-distillation.md | RELEASE | Reviewed source, documentation or verification |
+| workflows/default/templates/main-stage-distillation.md | RELEASE | Reviewed source, documentation or verification |
+| workflows/default/templates/profile-candidates.md | RELEASE | Reviewed source, documentation or verification |
+| workflows/default/templates/report.md | RELEASE | Reviewed source, documentation or verification |
+| workflows/default/templates/task.md | RELEASE | Reviewed source, documentation or verification |
 
-DEFER: Runtime, Router, bot, File Bridge, Observers, launcher, daemon, plugin/store installer and private-history evidence. REMOVE_FROM_CANDIDATE: NONE. MIT LICENSE included; no formal tag or GitHub Release asset. Root .git metadata is not part of the tracked/public manifest. The provenance manifest excludes only its own content hash; tracked preflight compares exact staged bytes with the working tree and rejects extra files outside root Git metadata.
+Router is SHIPPED; Runtime, bot, File Bridge, Observers, launcher and background automation remain unshipped. See [catalog](../extensions/README.md). Root Git metadata is not distributed; the asset manifest excludes only its own hash. Exact staged checks reject extra files, including ignored files.

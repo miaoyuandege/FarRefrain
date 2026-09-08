@@ -14,9 +14,9 @@ class SetupTests(unittest.TestCase):
     def test_prepare_matches_candidate_and_does_not_forge_report(self):
         with tempfile.TemporaryDirectory() as tmp:
             work = first_use.prepare(ROOT, Path(tmp)/'fresh')
-            for source, target in [('codex/skill/SKILL.md', '.agents/skills/mindos/SKILL.md'), ('core/MindOS.md', 'protocol/MindOS.md')]:
+            for source, target in [('workflows/default/SKILL.md', '.agents/skills/default/SKILL.md'), ('core/MEMORY_CONTRACT.md', '.agents/core/MEMORY_CONTRACT.md')]:
                 self.assertEqual(hashlib.sha256((ROOT/source).read_bytes()).digest(), hashlib.sha256((work/target).read_bytes()).digest())
-            self.assertEqual(len(list((work/'protocol/templates').glob('*.md'))), 6)
+            self.assertEqual(len(list((work/'.agents/skills/default/templates').glob('*.md'))), 6)
             self.assertTrue((work/'Inbox/FIRST-001_任务单.md').exists())
             self.assertEqual(list((work/'Handoffs').iterdir()), [])
             self.assertFalse((work/'.git').exists())

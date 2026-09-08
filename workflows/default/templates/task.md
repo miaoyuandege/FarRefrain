@@ -4,7 +4,7 @@
 > Rework：`<TaskID>_Rework-<NN>_任务单.md`
 > 下载到发件箱：`<RouteName>__<上述文件名>`
 
-**Required Skill: `$mindos`**
+**Required Skill: `$default`**
 
 ## Task ID
 

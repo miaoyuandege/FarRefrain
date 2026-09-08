@@ -6,6 +6,7 @@ From the candidate root:
 
 ```text
 python -B -m unittest discover -s tests -v
+python -B -m unittest discover -s extensions/router/tests -v
 python -B -m unittest discover -s tools/history-distiller -p test_distill.py -v
 python -B tools/prepublish_scan.py
 ```
@@ -17,6 +18,8 @@ The preflight checks the entire candidate, including ignored files; manifest cov
 Only the manifest itself is excluded from recursive content hashing. After an intentional reviewed change, explicitly regenerate `docs/asset-manifest.json` with per-file origin/transformation and public SHA256; review the difference. There is no automatic source sync or manifest updater that silently blesses unknown files.
 
 Skill schema validation is an additional maintainer check using the existing skill-creator validator when available. Passing these local checks does not grant a license or authorize publishing.
+
+The modular suite exercises files-only authorized update/fresh recovery, installed Skill/contract hashes and every installed resource link, synthetic lifecycle truth boundaries, and adding/removing a real Router copy without changing Core or workflow memory. Only temporary fixtures are mutated. Native discovery, authenticated AI execution and external human acceptance remain separate from these deterministic checks.
 
 ## Native local-discovery probe (optional, not first-use PASS)
 

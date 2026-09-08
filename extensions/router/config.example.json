@@ -1,0 +1,9 @@
+{
+  "source": "./outbox",
+  "routes": {"Example": "./project/inbox", "Notes": "./notes/inbox"},
+  "poll_interval_seconds": 2,
+  "stability_scans": 2,
+  "log_file": "./router.log",
+  "max_log_bytes": 1048576,
+  "log_backup_count": 2
+}

@@ -1,36 +1,22 @@
-# Explicit source map
+# Source map and synchronization
 
-Visual front-door delta: assets/mindos-mark.svg, assets/mindos-hero.svg, assets/mindos-workflow.svg and assets/social-preview.svg are NEW_PUBLIC originals built from simple shapes, system-font fallbacks and the public product positioning. assets/social-preview.png is a deterministic 1280 x 640 render of that editable source. README adds the hero, primary value, direct Install-with-AI action and visual workflow without changing product behavior. No private history, screenshot, Evidence or third-party artwork is copied.
+This public tree is an explicit allowlist, not an export of a private workspace. The [asset manifest](asset-manifest.json) records every file's hash, origin and transformation, excluding only itself to avoid recursive hashing.
 
-Discoverability delta: docs/LAUNCH_COPY.md is NEW_PUBLIC, authored from public product positioning only; no private history or evidence is copied. README adds a short problem statement and illustrative before/after flow, not new product behavior.
+| Public module | Origin and transformation | Verification |
+| --- | --- | --- |
+| core/ | New public contract/layout based on accepted minimal-memory architecture; former combined protocol replaced by pointer | Files-only update/recovery and identity/provenance witness |
+| workflows/default/references/WORKFLOW.md | Former public core/MindOS.md, originally curated project-controlled protocol; moved with full workflow retained and action-only handoff delta | Role/research/acceptance review, links, synthetic lifecycle |
+| workflows/default/SKILL.md | New thin native entry, informed by former public execution Skill | Native schema validation, installed-resource hash/link smoke |
+| workflows/default/templates/ | Six existing unfilled public templates, moved; Skill reference updated | Template count, source preservation, policy consistency |
+| workflows/default/references/main-ai.md and guardrails.md | Existing public account/native guidance reclassified; action-only return rule | One canonical policy, no account save claim |
+| extensions/router/router.py | Project-controlled accepted local transport source; no production config copied; config-relative paths and exclusive portable move added | Standalone synthetic tests and real temporary CLI transport |
+| extensions/router/tests/ | Accepted transport regressions genericized; production config lookup removed; portability/config tests added | Canonical/alias/collision/stability/event and six synthetic route checks |
+| extensions/router/config.example.json and README.md | New generic example and platform/failure/privacy contract | Config resolution test; exact private-path scan |
+| examples/kernel-only and default-workflow | New synthetic fixtures, no real project or human evidence | Disk recovery, manual lifecycle, add/remove Router independence |
+| tools/history-distiller | Existing project-controlled parser and synthetic fixtures; private-history verifier not distributed | Ten offline stdlib tests |
+| assets/ | Existing original vector artwork and deterministic social-preview render | Preserved dimensions/hashes; workflow graphic scoped to optional Workflow |
+| Other docs/tests/tools/compatibility entries | Public-authored material, maintained for modular paths and boundaries | Links, privacy, installation smoke and exact inventory |
 
-Product-understanding delta: docs/WHY_MINDOS.md, docs/WORKSPACE_ARCHITECTURE.md, docs/WALKTHROUGH.md and docs/PRINCIPLES.md are NEW_PUBLIC, written from the public product contract and generic examples. They explain the mental model, reference workspace, illustrative lifecycle and stable principles without copying a private layout, project, task, report or measured claim. README adds one secondary navigation row after the 30-second example; the hero and Install-with-AI CTA remain primary. No new SVG or third-party asset is used.
+Runtime, file bridge, bots, observers and background integration remain internal-only or deferred; see [catalog](../extensions/README.md). No database, real session, production route target, credential, user profile, private log or live report is distributed. Existing compatibility entries are pointers only, never a second authority.
 
-MIT activation delta: [LICENSE](../LICENSE) uses the [standard MIT text](https://choosealicense.com/licenses/mit/) with only the year/fullname placeholders filled as 2026 miaoyuandege by user decision. License state, inventory, manifest and directly affected verification are synchronized; protocol, Skill and onboarding behavior are unchanged.
-
-Public-pretest delta: START_HERE.md, EXTERNAL_FIRST_USE_FEEDBACK.md, the synthetic external-first-use project and tests/test_public_pretest.py are NEW_PUBLIC; no private Task or filled Report is copied. README/docs now distinguish authorized public testing from final v0.1 licensing/readiness. The preflight adds exact-index scanning for the authorized Git workflow; tracked bytes must match the reviewed working tree and manifest. No private parent repository or real task source is imported.
-
-This is a local pre-release candidate, not a final release or a new internal authority. Synchronization is manual: select → inspect → transform → verify → update manifest. Never copy a private workspace and then remove files.
-
-Root aliases refer to the maintainer's private checkout; their machine-specific values are deliberately not distributed. GLOBAL = internal global governance root; PROJECT = internal project governance root; PROGRAMS = internal shared tooling root. Public paths are relative to this candidate tree.
-
-| Public asset | Internal canonical source / origin | Transformation and sync rule | Verification |
-| --- | --- | --- | --- |
-| assets/mindos-mark.svg, assets/mindos-hero.svg, assets/mindos-workflow.svg, assets/social-preview.svg | New public-only original visual identity | Maintain local vector shapes and system-font fallbacks; no remote resources or private source material | XML parse, fixed dimensions, local-reference test, light/dark/narrow render review |
-| assets/social-preview.png | Deterministic render of assets/social-preview.svg | Regenerate from the reviewed SVG at exactly 1280 x 640; do not substitute an unrelated binary | PNG signature/dimensions, visual review, manifest hash |
-| core/MindOS.md | GLOBAL/MindOS.md | Curated generic protocol, including Lifecycle Delta; strip local paths, personal projects, routing configuration and private Evidence links; do not blindly mirror | Role/authority/lifecycle walkthrough, link/privacy scan |
-| core/templates/*.md | GLOBAL/模板; exact per-file mapping in asset-manifest.json | Only six inspected generic Task/Report/four Stage Source templates; no filled-in documents | Inventory and privacy scan |
-| codex/skill/SKILL.md | PROJECT/核心区/MindOS_v4.1/执行AI-Skill/SKILL.md | Generic project-relative execution subset; no machine-specific Runtime or installed path; retain safety and manual completion | Skill validator + protocol consistency |
-| chatgpt/custom-instructions/generic.md | GLOBAL/用户画像/Custom Instructions/Custom Instructions v5 Account.md | Thin generic account router; full v5 remains internal design reference, full protocol stays external; remove private path/preferences | Role separation, length and four scenario walkthroughs; actual account save separate |
-| codex/profiles/guardrails.md | GLOBAL/开发模式.md | Stable native discipline only; no personal model observations, private task IDs, fixed model/effort/cost claims | Evidence boundary review |
-| tools/history-distiller/distill.py | PROGRAMS/tools/codex-history-distiller/distill.py | Generic source; require explicit date range instead of private study defaults; no real logs/output bundled | Synthetic focused tests |
-| tools/history-distiller/test_distill.py | PROGRAMS/tools/codex-history-distiller/test_distill.py | Synthetic projects/models only; omit test of internal-only verify_evidence module (that module binds private Evidence and is DEFERRED) | Ten portable synthetic tests |
-| README.md, docs/*, presets/*, examples/*, tools/prepublish_scan.py, tests/*, tools/history-distiller/README.md, .gitignore | New public-only docs / preflight / synthetic tests | Written specifically for this workspace; product-understanding pages use only generic reference layouts and illustrative scenarios; no internal data copied | Manifest coverage, links, focused tests, pre-publish scan |
-
-Lifecycle sync point: internal protocol and local CI v5/Skill are available after the Lifecycle implementation attempt. This candidate consumes the generic stable Delta, not an assertion of Main AI Acceptance or account synchronization. On the next approved Delta, inspect these exact canonical sources, reapply transformations, compare public diffs, run focused tests and preflight, and record public hashes. Do not change internal sources from this directory.
-
-DEFER: Local File Bridge, Git/System/Runtime observers, Inbox Router and one-click launcher. Their current implementations/configs bind local roots, production profiles or internal evidence. Bootstrap does not refactor or package them. No Runtime DB, real session, deployment config, user profile, screenshots, generated observations or live Task/Report is part of the distribution.
-
-Every current file is enumerated in [asset-manifest.json](asset-manifest.json). The manifest excludes only itself to avoid recursive hashing; unlisted files fail preflight. Public hashes describe this mutable snapshot, not a final v0.1 freeze.
-
-Release-readiness delta: SECURITY.md, CONTRIBUTING.md, docs/LICENSE_DECISION.md, docs/OWNERSHIP.md, docs/PLATFORM.md, docs/GITHUB_SECURITY_PLAN.md, docs/INVENTORY.md, tools/first_use_probe.py and tests/test_first_use.py are NEW_PUBLIC. Documentation cites official pages with short paraphrases. The probe is new stdlib-only local discovery tooling; no SDK code, account/configuration, upstream executable or private metadata is redistributed. Existing README/Quick Start/preflight/tests receive only the associated onboarding, public-reference classification and verification changes. Generic Skill/protocol semantics remain unchanged. Internal baselines are accepted; acceptance of this new readiness delta remains separate.
+For future sync, inspect the exact source delta, reapply the named transformation, review every output, update its manifest hash and run exact staged verification. No automatic private-tree synchronization exists. Public file hashes describe a mutable pre-release, not v0.1 final certification.

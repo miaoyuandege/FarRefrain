@@ -6,7 +6,7 @@ Intended version: 0.1.0-rc1. This is a mutable local preparation snapshot, **not
 
 | Gate | State |
 | --- | --- |
-| Product scope / inventory | YES: Codex-first local governance, exact file dispositions in INVENTORY.md |
+| Product scope / inventory | YES: Local Memory Core, optional Default Workflow and shipped Router, exact file dispositions in INVENTORY.md |
 | README / onboarding documentation | YES: concrete repo-local setup, no timing guarantee |
 | Clean-environment first use | NO: local Skill discovered; outside-workspace metadata and absent isolated login prevent a clean AI Task/Report claim |
 | Skill distribution | YES for manual local placement/discovery; plugin/store installer not shipped |
@@ -23,4 +23,4 @@ Next: complete the first-use trial in a truly isolated, authenticated user envir
 
 [License packet](LICENSE_DECISION.md), [ownership audit](OWNERSHIP.md), [platform contract](PLATFORM.md), [security plan](GITHUB_SECURITY_PLAN.md). Git repository creation, remotes, commit, push, tag and release require separate explicit publication authority. None is performed by these tools.
 
-The generic account router remains independent of any maintainer's private account instructions. Do not publish private reports or the local first-use workspace. Observer/full presets remain design-only; no background modules are enabled.
+The generic account router remains independent of any maintainer's private account instructions. Do not publish private reports or the local first-use workspace. Observer/full remain design-only; Router is shipped as an optional foreground transport. No background module is enabled by installation.

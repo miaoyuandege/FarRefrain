@@ -1,47 +1,29 @@
-# Start here — AI-guided installation
+# Install with AI
 
-**PUBLIC PRE-RELEASE TEST · MIT LICENSED · NOT v0.1 FINAL · EXTERNAL FIRST-USE TESTING**
+MIT LICENSED public pre-release, not v0.1 final. Tell your AI: “Help me use this in my project.” Recommended: **Core + Default Workflow**. Supply a goal and allowed location; no protocol homework is required.
 
-For the user: give this repository URL to your AI and say:
+## A. Inspect
 
-> 帮我安装 MindOS，并告诉我安装完成后怎么开始使用。
+Read [Core](core/README.md), [Workflow](workflows/default/README.md) and the existing project's overview/stage. Confirm target, permissions and layout. Preserve unrelated files. Check for same-name `default` or old `mindos` Skills before copying. Do not assume client/login/account or Runtime.
 
-> Help me install MindOS, then tell me how to start using it.
+## B. Install — three choices
 
-The following steps are for that AI. Do the work your environment permits; do not make the user learn the internal workflow first. Reading this document does not grant new filesystem, credential, admin or background-execution permissions.
+1. **Core only:** copy the [files-only example](examples/kernel-only/README.md) into a new authorized directory or map its semantics onto existing files. Read the [contract](core/MEMORY_CONTRACT.md). No Skill, Python, Task or Router is needed. Replace synthetic identity/facts with user-confirmed ones for a real project.
+2. **Recommended: Core + Default Workflow:** place `core/MEMORY_CONTRACT.md` at `<project>/.agents/core/MEMORY_CONTRACT.md`; copy `SKILL.md`, `references/` and `templates/` from `workflows/default` into `<project>/.agents/skills/default`. Keep references/templates together; never copy SKILL.md alone. The package README is repository navigation, not an installed Skill resource. If either target exists, stop and review/merge deliberately. This placement preserves the Skill's `../../core` link. Link the installed contract and workflow from the overview.
+3. **Optional Router:** after choice 2 works, follow [Router setup](extensions/router/README.md) with a new generic config and reviewed targets. No automatic service or background installation. Removing Router does not remove memory.
 
-## A. Inspect before writing
+These are local copy instructions, not authorization for network/account changes. Review cloning/downloading separately. Confirm `default` points to the project installation in your client's Skill listing; file existence is not discovery. See [platform evidence](docs/PLATFORM.md).
 
-1. Identify your actual tools, OS, supported client/version and target project. Tested baseline: Windows with native Codex CLI 0.149.1; other clients/platforms are not verified. Read [platform limits](docs/PLATFORM.md) when relevant.
-2. If you can browse but cannot use local files or a terminal, say that installation is blocked by missing local capabilities. Ask the user to open a local-capable Codex task and give it the URL and request above; do not pretend a download or installation occurred.
-3. Download/clone this public repository into a new, user-authorized location. Use the actual repository URL supplied by the user, not a guessed owner or private source. Do not reuse or overwrite an unrelated directory. Record the commit SHA when Git is available. Never ask for the maintainer's private files or account.
-4. Establish the target project root; if none is chosen, offer the included [synthetic project](examples/external-first-use-project/项目总览.md). Only ask for a missing target/permission that changes the installation.
-5. Inspect existing project-local and visible same-name `mindos` Skills. Do not overwrite unknown content or assume duplicate names merge. Explain the exact conflict and preserve the existing installation. Do not inspect credential stores or unrelated projects.
+## C. Place your first input
 
-## B. Install the reviewed local Skill
+Files only: read overview/current, make one authorized factual update, preserve its predecessor in history with provenance, and recover in fresh context.
 
-Use the client's supported local Skill mechanism. The tested placement is `<project>/.agents/skills/mindos/SKILL.md`, copied from this repository's `codex/skill/SKILL.md`. This is a normal project file copy, not a global service install.
+Default Workflow: say “接管这个项目” / “Take over this project”, then choose a scoped change with the Main AI. It resolves the Research / Reuse Gate and creates a [Task](workflows/default/templates/task.md). Place it manually in the mapped inbox, select `$default` in the execution client and say “执行任务”. The [synthetic lifecycle](examples/default-workflow/README.md) shows artifact roles, not a completed human test.
 
-Use existing file tools or the non-overwriting PowerShell procedure in [Quick Start](docs/QUICK_START.md). Check source and destination first. No administrator privileges, registry changes, credential storage, daemon, watcher, database, Router, bot or Observer are required. Do not execute an unreviewed remote install script or change the user's account configuration.
+## D. Verify
 
-## C. Place protocol and minimum context
+Check copied Core/Workflow hashes and relative links, stable project identity and current/planning distinction. Inspect actual client discovery. For Workflow inspect changed files, real verification, one report and unchanged Source preservation. Main AI Acceptance remains independent. [Automated smoke](docs/VERIFY.md) is not authenticated end-to-end or external human first-use.
 
-Copy `core/` into a new `<project>/mindos-protocol/` so `MindOS.md` and its six template links remain together. Do not overwrite an existing protocol directory. Link or record `mindos-protocol/MindOS.md` in the existing project overview with the actual current-stage, Inbox and Handoffs locations. Preserve established project conventions; do not restructure a real project to fit the example.
+## E. Tell the user
 
-For the included example, the overview already states these locations. Install the Skill and protocol there; no private author paths or additional systems are needed. The template directory is material to read, not a queue of tasks to execute.
-
-## D. Verify honestly
-
-- Confirm the current working root is the user's chosen project, not the downloaded distribution by mistake.
-- Confirm the installed Skill and protocol match the reviewed source and are readable; check template links.
-- Confirm the client discovers the project `mindos` Skill (CLI `/skills` or actual client listing). Explicitly select the project path if names collide. If reload is needed, say so; a file existing is not discovery evidence.
-- Confirm the overview points to the installed protocol and actual project locations, with no maintainer-private path dependency.
-- If any check fails, report the first divergence and smallest next action. No installation PASS without actual discovery. User acceptance and external first-use remain separate from these checks.
-
-## E. Tell the user only the next useful step
-
-After verified installation: “打开你的项目并说：接管这个项目。需要执行端继续时说：执行任务。” The exact command is `执行任务` without a trailing full stop. Explain advanced terms only when useful.
-
-For the external trial, open `examples/external-first-use-project`, say “接管这个项目”, then “执行任务”. The prepared synthetic Task changes one sentence, verifies it, creates one report and preserves its Source. Expected duration is 5–10 minutes, a test-design target rather than measured performance. Do not pre-execute or mark it accepted on behalf of the tester.
-
-Ask for only [short first-divergence feedback](docs/EXTERNAL_FIRST_USE_FEEDBACK.md). Never request raw sessions, prompt history, private code or credentials. Repository visibility and successful installation do not mean a final v0.1 release or external human first-use PASS.
+Report installed paths, checks and missing client/permission/acceptance evidence. Never claim account settings were saved; [main-AI instructions](workflows/default/references/main-ai.md) are optional and saved separately by the user. With no further action after acceptance, omit redundant “tell Codex to stop” replies; when action remains give one self-contained instruction.

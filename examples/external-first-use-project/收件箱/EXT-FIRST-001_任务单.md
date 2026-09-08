@@ -1,6 +1,6 @@
 # EXT-FIRST-001
 
-Required Skill: $mindos
+Required Skill: $default
 Execution Mode: manual_inbox / not_registered
 Verification: FAST / text-only
 
