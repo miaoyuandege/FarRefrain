@@ -30,6 +30,15 @@ def prepare(candidate, workspace):
     shutil.copytree(candidate / 'workflows/default', workspace / '.agents/skills/default', ignore=shutil.ignore_patterns('README.md'))
     (workspace / '.agents/core').mkdir()
     shutil.copyfile(candidate / 'core/MEMORY_CONTRACT.md', workspace / '.agents/core/MEMORY_CONTRACT.md')
+    # Carry optional linked Core contracts with the copied memory contract.
+    # Legacy candidates without these additions remain valid.
+    for name in ['TRUTH_MODEL.md', 'CONTEXT_PROJECTION.md']:
+        if (candidate / 'core' / name).is_file():
+            shutil.copyfile(candidate / 'core' / name, workspace / '.agents/core' / name)
+    helper = candidate / 'tools/context_projection.py'
+    if helper.is_file():
+        (workspace / '.agents/tools').mkdir(exist_ok=True)
+        shutil.copyfile(helper, workspace / '.agents/tools/context_projection.py')
     (workspace / 'AGENTS.md').write_text('Use the local default Skill for execution. Start with PROJECT.md.\n', encoding='utf-8')
     (workspace / 'PROJECT.md').write_text('# Example project\nproject_key = first-use-example\nCore: .agents/core/MEMORY_CONTRACT.md\nProtocol: .agents/skills/default/references/WORKFLOW.md\nStage: FIRST_USE.md\nInbox: Inbox\nHandoffs: Handoffs\nRuntime: not configured; manual mode only.\n', encoding='utf-8')
     (workspace / 'FIRST_USE.md').write_text('# First use\nGoal: one synthetic documentation change. No completed tasks or acceptance yet.\n', encoding='utf-8')

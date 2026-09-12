@@ -95,10 +95,17 @@
       "disposition": "RELEASE"
     },
     {
+      "path": "core/CONTEXT_PROJECTION.md",
       "origin": "NEW_PUBLIC",
-      "transformation": "Public-authored modular documentation, fixture or verification; no private data.",
+      "disposition": "CANDIDATE",
+      "sha256": "6fa23b728ce167a80e1abad5c4d0cd59b3195e3ec953dbb1efe1322f4efb85a2",
+      "transformation": "Original plain-file truth/projection contracts, stdlib helper, synthetic tests or linked-document packaging; no private data, auto-adoption or background execution."
+    },
+    {
+      "origin": "NEW_PUBLIC",
+      "transformation": "Original plain-file truth/projection contracts, stdlib helper, synthetic tests or linked-document packaging; no private data, auto-adoption or background execution.",
       "path": "core/MEMORY_CONTRACT.md",
-      "sha256": "c6c3ab74126d134b06b310f9ce4f104de07b6a58163a06729b774710eecc2f55",
+      "sha256": "942d252a3a735e4b894b98d5d65cd10dfbc3d48b342d29e60fcf28f11f5f13e0",
       "disposition": "RELEASE"
     },
     {
@@ -114,6 +121,13 @@
       "path": "core/README.md",
       "sha256": "e98afb2208c80b30360414dd8626aedce6c0b803b21479d47d42da0386855ce5",
       "disposition": "RELEASE"
+    },
+    {
+      "path": "core/TRUTH_MODEL.md",
+      "origin": "NEW_PUBLIC",
+      "disposition": "CANDIDATE",
+      "sha256": "71f532cec072019a7791f5af96c48354757f2985368903505802c775f9771f82",
+      "transformation": "Original plain-file truth/projection contracts, stdlib helper, synthetic tests or linked-document packaging; no private data, auto-adoption or background execution."
     },
     {
       "origin": "NEW_PUBLIC",
@@ -564,10 +578,24 @@
       "sha256": "3601da9aecd0fff5ba33e465ac508f5737ad69fe6339aff71e325d8b92b881a2"
     },
     {
+      "path": "tests/test_truth_projection.py",
+      "origin": "NEW_PUBLIC",
+      "disposition": "CANDIDATE",
+      "sha256": "2d601271f0d661a7cd9875dfd92f3e8fc16c93e92b73501e3c2df199c5bf965b",
+      "transformation": "Original plain-file truth/projection contracts, stdlib helper, synthetic tests or linked-document packaging; no private data, auto-adoption or background execution."
+    },
+    {
+      "path": "tools/context_projection.py",
+      "origin": "NEW_PUBLIC",
+      "disposition": "CANDIDATE",
+      "sha256": "d9cffe288bb31cc3cf58483392753db9c89c35c82e9a448c4ec29cdb7616e11f",
+      "transformation": "Original plain-file truth/projection contracts, stdlib helper, synthetic tests or linked-document packaging; no private data, auto-adoption or background execution."
+    },
+    {
       "path": "tools/first_use_probe.py",
       "origin": "NEW_PUBLIC",
-      "transformation": "Release-readiness documentation or stdlib-only local diagnostic/synthetic tests; no private data or bundled third-party code.",
-      "sha256": "b95d706354031162cb929a205aca3e9eab5597fabe24e1d334424cd045d13f54",
+      "transformation": "Original plain-file truth/projection contracts, stdlib helper, synthetic tests or linked-document packaging; no private data, auto-adoption or background execution.",
+      "sha256": "5290250c22d46a8f7d0a1d5141fe5d85759ea109bddd907f4b61db11d9cf7f3e",
       "disposition": "RELEASE"
     },
     {

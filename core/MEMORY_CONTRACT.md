@@ -11,3 +11,5 @@ This is the canonical Core semantic contract. It is independent of any agent or 
 7. **Recoverability.** A fresh reader can identify the same project, locate current facts, distinguish pending intentions, and trace a replaced fact to its source. A plain-files-only witness is sufficient.
 
 No workflow, task lifecycle, role hierarchy, scheduler, transport, account or service is mandated by this contract. Extensions may provide capabilities; they do not independently promote content into adopted truth.
+
+Optional explicit [truth states and types](TRUTH_MODEL.md) and [bounded reading tiers](CONTEXT_PROJECTION.md) refine these plain-file rules without requiring metadata migration or selecting a workflow. Current remains a small maintained projection; source evidence and superseded history remain readable.
